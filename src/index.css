@@ -1,0 +1,54 @@
+:root {
+  --color-primary: #6f4e37;
+  --color-primary-light: #a67b5b;
+  --color-accent: #d4a373;
+  --color-bg: #fff8f0;
+  --color-surface: #ffffff;
+  --color-text: #2d2a26;
+}
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+  --font-display: "Playfair Display", serif;
+}
+
+@layer utilities {
+  .bg-primary {
+    background: var(--color-primary);
+  }
+
+  .bg-primary-light {
+    background: var(--color-primary-light);
+  }
+
+  .bg-accent {
+    background: var(--color-accent);
+  }
+
+  .bg-surface {
+    background: var(--color-surface);
+  }
+
+  .text-primary {
+    color: var(--color-primary);
+  }
+
+  .text-main {
+    color: var(--color-text);
+  }
+
+  .border-primary {
+    border-color: var(--color-primary-light);
+  }
+}
+
+.btn-primary {
+  background: var(--color-primary);
+  color: white;
+  transition: opacity 0.2s;
+}
+.btn-primary:hover {
+  opacity: 0.9;
+}
