@@ -20,6 +20,15 @@ A modern coffee shop website with admin dashboard built using React, TypeScript,
 - Lucide Icons
 - Vite
 
+- ## 🔐 Admin Demo
+
+Login URL:
+https://sandyivanotumoka.github.io/coffe-shop/#/admin/login
+
+Demo credentials:
+Username: admin
+Password: admin123
+
 ## 📦 Installation
 
 ```bash
